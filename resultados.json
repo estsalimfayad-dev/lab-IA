@@ -1,0 +1,102 @@
+{
+ "mejor": 64,
+ "tabla": [
+  {
+   "Neuronas": 8,
+   "Exactitud": 0.573,
+   "Precision": 0.5227,
+   "Recall": 0.575,
+   "F1": 0.5476,
+   "Especificidad": 0.5714,
+   "Inferencia_ms": 2.1657
+  },
+  {
+   "Neuronas": 16,
+   "Exactitud": 0.6854,
+   "Precision": 0.6765,
+   "Recall": 0.575,
+   "F1": 0.6216,
+   "Especificidad": 0.7755,
+   "Inferencia_ms": 2.3543
+  },
+  {
+   "Neuronas": 32,
+   "Exactitud": 0.7191,
+   "Precision": 0.7143,
+   "Recall": 0.625,
+   "F1": 0.6667,
+   "Especificidad": 0.7959,
+   "Inferencia_ms": 2.7355
+  },
+  {
+   "Neuronas": 64,
+   "Exactitud": 0.7416,
+   "Precision": 0.7297,
+   "Recall": 0.675,
+   "F1": 0.7013,
+   "Especificidad": 0.7959,
+   "Inferencia_ms": 2.3069
+  },
+  {
+   "Neuronas": 128,
+   "Exactitud": 0.4494,
+   "Precision": 0.4416,
+   "Recall": 0.85,
+   "F1": 0.5812,
+   "Especificidad": 0.1224,
+   "Inferencia_ms": 2.3082
+  }
+ ],
+ "cm": {
+  "8": [
+   [
+    28,
+    21
+   ],
+   [
+    17,
+    23
+   ]
+  ],
+  "16": [
+   [
+    38,
+    11
+   ],
+   [
+    17,
+    23
+   ]
+  ],
+  "32": [
+   [
+    39,
+    10
+   ],
+   [
+    15,
+    25
+   ]
+  ],
+  "64": [
+   [
+    39,
+    10
+   ],
+   [
+    13,
+    27
+   ]
+  ],
+  "128": [
+   [
+    6,
+    43
+   ],
+   [
+    6,
+    34
+   ]
+  ]
+ }
+}
